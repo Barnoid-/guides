@@ -63,7 +63,7 @@ need for a browser to be open. Consult the [PhantomJS download instructions](htt
 Install Ember using npm:
 
 ```bash
-npm install -g ember-cli
+npm install -g ember-cli@2.4
 ```
 
 To verify that your installation was successful, run:
