@@ -41,6 +41,14 @@ Ember requires Git to manage many of its dependencies. Git comes with Mac OS
 X and most Linux distributions. Windows users can
 download and run [this Git installer](http://git-scm.com/download/win).
 
+### Bower
+
+Ember requires bower to manage dependencies in applications. If bower has not 
+yet been installed on your system, run
+```bash
+npm install -g bower
+```
+
 ### Watchman (optional)
 
 On Mac and Linux, you can improve file watching performance by installing [Watchman](https://facebook.github.io/watchman/docs/install.html).
@@ -55,7 +63,7 @@ need for a browser to be open. Consult the [PhantomJS download instructions](htt
 Install Ember using npm:
 
 ```bash
-npm install -g ember-cli@2.4
+npm install -g ember-cli
 ```
 
 To verify that your installation was successful, run:
